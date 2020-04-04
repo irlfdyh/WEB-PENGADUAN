@@ -41,7 +41,6 @@ Route::middleware('auth')->group(function (){
 
 });
 
-
 // Route::group(['middleware' => 'admin'], function () { 
 // 	Route::get('/a', function (){
 // 		return 'aaaa';

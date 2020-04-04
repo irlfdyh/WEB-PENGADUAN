@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Pengaduan;
 
 class LaporanController extends Controller
 {
@@ -13,7 +14,9 @@ class LaporanController extends Controller
      */
     public function index()
     {
-        
+        // get all pengaduan data and parsing it to view laporan
+        $data = Pengaduan::paginate(10);
+        return view('pages.laporan.index', compact('data'));
     }
 
     public function userLaporan()
