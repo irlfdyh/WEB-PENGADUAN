@@ -43,7 +43,7 @@
             </div>
         </header>
         <main role="main" class="inner cover">
-            <h1 class="cover-heading">LAPOOR !!</h1>
+            <h1 class="cover-heading">LAPOR AJA GPP KOK</h1>
             <div class="form-group">
                 <input type="text" name="judul" id="judul" class="form-control" placeholder="Judul...">
             </div>
@@ -63,7 +63,7 @@
         </main>
         <footer class="mastfoot mt-auto">
             <div class="inner">
-                <p>&copy; Titam Septian 2020</p>
+                <p>&copy; Raka Ryamizard 2020</p>
             </div>
         </footer>
     </div>

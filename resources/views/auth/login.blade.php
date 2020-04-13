@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <meta name="author" content="Titam Septian">
+    <meta name="author" content="Raka Ryamizard">
     <meta name="generator" content="Jekyll v3.8.6">
     <title>Login </title>
     <!-- Bootstrap core CSS -->
@@ -58,7 +58,7 @@
         </div>
         <div class="checkbox mb-3">
           <label>
-            Belum Punya Akun ? 
+           apakah anda tidak punya akun ? 
             <a href="{{ route('getRegister') }}">
               Register
             </a>

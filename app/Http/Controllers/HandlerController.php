@@ -28,7 +28,7 @@ class HandlerController extends Controller
 			if (Auth::user()->level == 'petugas') {
 				// cek level di table petugas |petugas|admin
 
-				// jika level di tble petugas == admin
+				// jika level di table petugas == admin
 				if (Auth::user()->petugas[0]->level == 'admin') {
 
 					return redirect()->route('dashboard');
@@ -41,7 +41,7 @@ class HandlerController extends Controller
 				// jika tidak ada level
 				}else {
 					Auth::logout();
-					return redirect()->route('getLogin')->with('msgWarning', 'Terjadi kesalahan dengan Hak Akese');
+					return redirect()->route('getLogin')->with('msgWarning', 'kesalahan pada hak akses');
 
 				}
 			// jika level == masyarakat

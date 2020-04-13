@@ -28,7 +28,7 @@ class AuthController extends Controller
     	if (Auth::attempt($data_login)) {
     		return redirect()->route('init');
     	}else{
-    		return redirect()->back()->with('msgWarning', 'Username dan Password Salah');
+    		return redirect()->back()->with('msgWarning', 'Username atau Password Salah');
     	}
     }
 
@@ -71,6 +71,6 @@ class AuthController extends Controller
     {
         Auth::logout();
         return redirect()->route('getLogin')
-                ->with('msgSuccess', "Berhasil Logout");
+                ->with('msgSuccess', "LOGOUT BESRHASIL !");
     }
 }

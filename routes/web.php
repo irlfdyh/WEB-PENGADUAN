@@ -34,9 +34,9 @@ Route::middleware('auth')->group(function (){
 	Route::get('/dashboard', 'HandlerController@dashboard')->name('dashboard');
 
 
-	// ======================== |laporan| =======================
-	Route::resource('laporan', 'LaporanController');
-	Route::get('/user-laporan', 'LaporanController@userLaporan')->name('laporan.user');
+// ======================== |laporan| =======================
+Route::resource('laporan', 'LaporanController');
+Route::get('/user-laporan', 'LaporanController@userLaporan')->name('laporan.user');
 
 
 });

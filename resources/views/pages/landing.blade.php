@@ -16,7 +16,7 @@
 
         /* Jumbotron */
         .jumbotron {
-            background: url({{asset('tmp/img/jumbotron-bg.jpg')}});
+            background: #abc4e7;
             background-size: cover;
             height: 540px;
             position: relative;
@@ -207,7 +207,7 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Viga" rel="stylesheet">
 
-    <title>NgaduYuk!</title>
+    <title>hayu ngadu !</title>
   </head>
   <body>
 
@@ -215,7 +215,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
-        <a class="navbar-brand" href="#">NgaduYuk!</a>
+        <a class="navbar-brand" href="#">hayu ngadu !</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -246,8 +246,8 @@
     <!-- Jumbotron -->
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
-        <h1 class="display-4"> <span>Ayo Ngadu</span> dan <span>Menjadi lebih baik</span> Bersama Kami</h1>
-        <a href="#" class="btn btn-info btn-lg tombol">LAPOR</a>
+        <h1 class="display-4"> HAYUU <span>NGADU</span> AGAR TIDAK ADA DENDAM DIANTARA KITA</h1>
+        <a href="{{ route('laporan.user') }}" class="btn btn-danger tombol">Lapor   </a>
       </div>
     </div>
     <!-- akhir Jumbotron -->
@@ -290,7 +290,7 @@
           <h2>Lapor <span>Pengaduan</span> Sangat <span>Mudah</span></h2>
           <p>Bekerja dengan suasana hati yang lebih asik, menyenangkan
             dan mempelajari hal baru setiap harinya.</p>
-          <a href="{{ route('laporan.user') }}" class="btn btn-danger tombol">Lapor   </a>
+         
         </div>
       </div>
       <!-- akhir Workingspace -->
